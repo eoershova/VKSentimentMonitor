@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<title>VKSentimentMonitor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+</style>
+</head>
+<body>
+
+<h2>Введите ссылку на сообщество и сколько последних постов проанализировать</h2>
+
+<form>
+
+  <label for="link">Ссылка</label>
+  <input type="text" id="link" name="link"placeholder="https://vk.com/sysblok">
+
+  <label for="lname">Количество постов</label>
+  <input type="text" id="n_posts" name="n_posts" placeholder="10">
+  <button type="submit" class="btn success">Искать!</button>
+
+</form>
+
+
+
+</body>
+</html>
+

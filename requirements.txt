@@ -1,0 +1,24 @@
+# general
+pandas
+numpy
+
+# preprocessing
+tqdm
+pymorphy2
+emoji
+slovnet
+navec
+razdel
+nltk
+
+# models
+sklearn
+matplotlib
+xgboost
+pickle-mixin
+
+
+# web
+flask
+vk_api
+requests
